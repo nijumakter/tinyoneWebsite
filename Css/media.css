@@ -1,0 +1,89 @@
+/* / Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* header start */
+    .menu ul li a {
+
+        padding: 0px 0px !important;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    /* header end */
+    /* slider start */
+    .slide_text h1 {
+        font-size: 24px !important;
+    }
+
+    .slide_text {
+        margin-top: 17px !important;
+    }
+
+    /* slider end */
+}
+
+/* / Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header start */
+    .menu ul li a {
+
+        padding: 0px 0px !important;
+        font-size: 17px;
+
+    }
+
+    /* header end */
+
+    /* slider start */
+    .slide_text {
+        margin-top: 40px !important;
+    }
+
+    /* slider end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header start */
+    .menu ul li a {
+
+        padding: 0px 0px !important;
+
+    }
+
+    /* header end */
+
+    /* slider start */
+    .slide_text h1 {
+        font-size: 27px !important;
+    }
+
+    .slide_text p {
+        margin-bottom: 20px !important;
+    }
+
+    .slide_text {
+        margin-top: 58px !important;
+    }
+
+    .slide_img {
+        margin-top: 24px !important;
+        margin-bottom: 86px !important;
+    }
+
+    .cid_ {
+        bottom: 7px !important;
+    }
+
+    /* slider end */
+}
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
